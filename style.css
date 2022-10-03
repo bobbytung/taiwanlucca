@@ -61,6 +61,13 @@ h3 {
 	font-size: 1.2em;
 }
 
+h4 {
+	text-align: center;
+	color: black;
+	font-family: "Avenir Next Condensed", sans-serif;
+	margin: 1em 0 0 0;
+}
+
 p {
 	line-height: 1.5;
 	font-family: "Avenir Next ", sans-serif;
@@ -130,6 +137,19 @@ footer p small {
 	font-style: italic;
 }
 
+.s2book {
+	max-width: 45%;
+	display: inline-block;
+	margin: 1em 2.5%;
+
+}
+
+.s2book dl {
+	display: block;
+	margin: 0.5em auto;
+	text-align: left;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -140,3 +160,4 @@ em {
 	font-weight: light;
 	border-bottom: var(--sub-pink) 3px double;
 }
+

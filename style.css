@@ -105,6 +105,13 @@ dd {
 }
 
 .cover {
+	height: 240px;
+	display: block; 
+	margin: 0 auto;
+	border: 5px solid beige;
+}
+
+.banner {
 	height: 300px;
 	display: block; 
 	margin: 0 auto;
@@ -112,18 +119,12 @@ dd {
 }
 
 section {
-	max-width: 600px;
 	display: block;
 	margin: 0 auto;
 	padding: 0.5em 1em;
 }
 
-section.wide {
-	max-width: none;
-	display: block;
-	margin: 0 auto;
-	padding: 0.5em 1em;
-}
+
 
 footer {
 	border-top: 3px var(--sub-pink) solid;)
@@ -151,7 +152,7 @@ footer p small {
 	overflow-x: auto;
 	
 	  .s2book {
-		flex: 0 0 auto;
+		flex: 1 1 500px;
 	  }
 }
 
@@ -163,10 +164,13 @@ footer p small {
 
 
 .s2book {
-	max-width: 45%;
+	width: 40%;
 	display: inline-block;
 	margin: 1em 2.5%;
+}
 
+.s2book img {
+  height: 200px;
 }
 
 .s2book dl {

@@ -1,0 +1,142 @@
+:root {
+	--main-color: #cfd629;
+	--sub-green: #006934;
+	--sub-pink: #e62e8b;
+}
+
+body {
+	background-color: rgba(207, 214, 41, 0.25);
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: "Color";
+  src: url(font.otf);
+}
+
+h1 {
+	font-family: "Color", sans-serif;
+	text-align: center;
+	font-size: 2em;
+	color: var(--sub-pink);
+}
+
+header h1 {
+	font-size: 1.2em;
+	margin: 0;
+}
+
+header+h1 {
+	margin-top: 3em;
+}
+
+header {
+	border-bottom: 3px var(--sub-green) solid;)
+	margin: 0;
+	padding: 0;
+	background-color: rgba(207, 214, 41, 0.4);
+	padding: 0.5em 0;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+h2 {
+	font-family: "Avenir Next Condensed", sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: var(--sub-green);
+	text-align: center;
+	font-size: 1.4em;
+	border-bottom: 2px dotted var(--sub-green);
+}
+
+h3 {
+	font-family: "Avenir Next Condensed", sans-serif;
+	font-weight: medium;
+	font-style: italic;
+	color: var(--sub-pink);
+	text-align: center;
+	font-size: 1.2em;
+}
+
+p {
+	line-height: 1.5;
+	font-family: "Avenir Next ", sans-serif;
+	font-weight: medium;
+}
+
+.person {
+	display: inline-block;
+}
+
+dl {
+	font-family: "Avenir Next ", sans-serif;
+	font-weight: medium;
+}
+
+dt {
+	font-family: "Avenir Next Condensed", sans-serif;
+	font-weight: 600;
+	color: var(--sub-green);
+
+}
+
+dd {
+	font-family: "Avenir Next Condensed", sans-serif;
+	font-weight: medium;
+	font-style: italic;
+	color: var(--sub-pink);
+}
+
+.portrait {
+	height: 240px;
+	border-radius: 120px;
+	display: block; 
+	margin: 0 auto;
+}
+
+.cover {
+	height: 300px;
+	display: block; 
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px gray;
+}
+
+section {
+	max-width: 600px;
+	display: block;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+}
+
+footer {
+	border-top: 3px var(--sub-pink) solid;)
+
+}
+
+footer p {
+	font-family: "Color", sans-serif;
+	color: var(--sub-green);
+	text-align: center;
+	font-size: 0.8em;
+}
+
+footer p small {
+	font-size: 0.8rem;
+	font-family: "Avenir Next Condensed", sans-serif;
+	font-weight: medium;
+	font-style: italic;
+}
+
+.text-center {
+	text-align: center;
+}
+
+em {
+	font-family: "Avenir Next Condensed", sans-serif;
+	font-style: normal;
+	font-weight: light;
+	border-bottom: var(--sub-pink) 3px double;
+}

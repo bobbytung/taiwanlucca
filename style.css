@@ -118,6 +118,13 @@ section {
 	padding: 0.5em 1em;
 }
 
+section.wide {
+	max-width: none;
+	display: block;
+	margin: 0 auto;
+	padding: 0.5em 1em;
+}
+
 footer {
 	border-top: 3px var(--sub-pink) solid;)
 
@@ -136,6 +143,24 @@ footer p small {
 	font-weight: medium;
 	font-style: italic;
 }
+
+.booklist {
+	-webkit-overflow-scrolling: touch;
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	
+	  .s2book {
+		flex: 0 0 auto;
+	  }
+}
+
+.booklist {
+  &::-webkit-scrollbar {
+	display: none;
+  }
+}
+
 
 .s2book {
 	max-width: 45%;
@@ -161,3 +186,7 @@ em {
 	border-bottom: var(--sub-pink) 3px double;
 }
 
+a {
+	text-decoration: none;
+
+}

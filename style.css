@@ -112,6 +112,14 @@ dd {
 
 }
 
+.cover2 {
+	height: 230px;
+	display: block; 
+	margin: 0 auto;
+	box-shadow: 5px 5px 5px beige;
+
+}
+
 .banner {
 	height: 180px;
 	display: block; 
@@ -173,6 +181,12 @@ footer p small {
 	margin: 1em 2.5%;
 }
 
+.s5book {
+	width: 42.5%;
+	display: inline-block;
+	margin: 1em 2.5%;
+}
+
 .s4banner {
 	width: 80%;
 	display: inline-block;
@@ -181,6 +195,10 @@ footer p small {
 
 .s2book img {
   height: 200px;
+}
+
+.s5book img {
+  height: 230px;
 }
 
 .s2book dl {

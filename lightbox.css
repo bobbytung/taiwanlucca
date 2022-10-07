@@ -9,7 +9,7 @@ body.lb-disable-scrolling {
   z-index: 9999;
   background-color: black;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
-  opacity: 0.8;
+  opacity: 0.9;
   display: none;
 }
 
@@ -157,7 +157,7 @@ body.lb-disable-scrolling {
 }
 
 .lb-data .lb-details {
-  width: 85%;
+  width: 100%;
   float: left;
   text-align: left;
   line-height: 1.1em;

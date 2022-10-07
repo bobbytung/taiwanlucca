@@ -79,6 +79,22 @@ h4 {
 	color: black;
 	font-family: "Avenir Next", sans-serif;
 	margin: 1em 0 0 0;
+	display: block;
+	width: 180px;
+	height: 80px;
+	vertical-align: middle;
+}
+
+h4.three {
+	height: 55px;
+}
+
+h4.two {
+	height: 40px;
+}
+
+h4.one {
+	height: 20px;
 }
 
 p {
@@ -101,7 +117,7 @@ dl {
 
 dt {
 	font-family: "Avenir Next Condensed", sans-serif;
-	color: var(--sub-green);
+	color: gray;
 	font-weight: light;
 	font-style: italic;
 	font-size: 0.8em;
@@ -111,7 +127,7 @@ dt {
 dd {
 	font-family: "Avenir Next Condensed", sans-serif;
 	font-weight: 600;
-	color: var(--sub-pink);
+	color: var(--sub-green);
 }
 
 .portrait {
@@ -152,7 +168,7 @@ dd {
 }
 
 .cover5 {
-	max-width: 380px;
+	max-width: 360px;
 	display: inline-block; 
 	margin: 0 auto;
 	box-shadow: 5px 5px 5px beige;
@@ -214,7 +230,7 @@ footer p small {
 
 
 .s2book {
-	width: 150px;
+	width: 160px;
 	display: inline-block;
 	margin: 1em 15px;
 }

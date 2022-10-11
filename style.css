@@ -146,6 +146,12 @@ dd {
 	margin: 0 1em;
 }
 
+.portrait2 {
+	max-width: 360px;
+    border: beige 5px solid;
+	box-shadow: gray 5px 5px 5px;
+}
+
 .cover {
 	height: 200px;
 	display: block; 
@@ -300,4 +306,9 @@ em {
 a {
 	text-decoration: none;
 
+}
+
+.moc {
+	width: 100px;
+	vertical-align: middle;
 }

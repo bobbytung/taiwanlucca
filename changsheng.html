@@ -10,16 +10,21 @@
 		<meta property="og:description" content="">
 		<meta property="og:image" content="fbbanner.jpg">
 		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
+		<link href="lightbox.css" rel="stylesheet" />
+			<script src="lightbox-plus-jquery.js"></script>
+		</head>
+		<body>
+			<script>
+				lightbox.option({
+		
+				})
+			</script>
 		<header>
 			<a href="index.html"><h1>TAIWAN COMICS <small>in</small> Lucca Comics <small>and</small> Games 2022</h1></a>
 		</header>
 		<h1>Chang Sheng<br />常勝</small></h1>
-			<p class="text-center">
-			<img src="images/s1b4.jpg" alt="" class="cover4"/>
-			<img src="images/s1b5.jpg" alt="" class="cover4"/>
-			<img src="images/s1b6.jpg" alt="" class="cover4"/>
+		<p class="text-center">
+			<img src="images/cs.jpg" class="portrait2" alt="常勝肖像照"/>
 		</p>
 		<section>
 			<h2>Introduction</h2>
@@ -46,8 +51,21 @@
 			<h3>YAN</h3>
 
 			<p class="text-center">
-				<img src="images/s1b1.jpg" alt="Cover of the comic Yan" class="cover3"/>
+				<a href="images/s1b1.jpg" data-lightbox="yan"><img src="images/s1b1.jpg" alt="Cover of the comic Yan" class="cover3"/></a>
+				<a href="images/s1b3.jpg" data-lightbox="yan">
 				<img src="images/s1b3.jpg" alt="Cover of the comic Yan" class="cover3"/>
+				</a>
+			</p>
+			<p class="text-center">
+				<a href="images/s1b4.jpg" data-lightbox="yan">
+					<img src="images/s1b4.jpg" alt="" class="cover4"/>
+				</a>
+				<a href="images/s1b5.jpg" data-lightbox="yan">
+					<img src="images/s1b5.jpg" alt="" class="cover4"/>
+				</a>
+				<a href="images/s1b6.jpg" data-lightbox="yan">
+					<img src="images/s1b6.jpg" alt="" class="cover4"/>
+				</a>
 			</p>
 			<p>Thirty years ago, the young Peking Opera performer Yan Tieh-hua was wrongly convicted of the murder of her own family and sent to prison. Twenty years later she died while still incarcerated. Yet, today, this same woman has mysteriously returned as a superpowered teen in Peking Opera costume, determined to avenge the massacre of her family.</p>
 			
@@ -59,6 +77,7 @@
 		<footer>
 			<p><b>Organizer</b>｜<small>Cultural Division Taipei Representative Office in Italy</small></p>
 			<p><b>Executive Organizer</b>｜<small>Dala Publishing Company</small></p>
+			<p><b>Sponsor</b> | <img src="images/moc.png" alt="文化部" class="moc"/></p>
 		</footer>
 	</body>
 </html>

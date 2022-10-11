@@ -10,16 +10,21 @@
 		<meta property="og:description" content="">
 		<meta property="og:image" content="fbbanner.jpg">
 		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
+		<link href="lightbox.css" rel="stylesheet" />
+			<script src="lightbox-plus-jquery.js"></script>
+		</head>
+		<body>
+			<script>
+				lightbox.option({
+		
+				})
+			</script>
 		<header><a href="index_it.html">
 			<h1>I fumetti di Taiwan <small>in</small> LC&G 2022</h1>
 		</a></header>
 		<h1>Chang Sheng<br />常勝</small></h1>
-			<p class="text-center">
-			<img src="images/s1b4.jpg" alt="" class="cover4"/>
-			<img src="images/s1b5.jpg" alt="" class="cover4"/>
-			<img src="images/s1b6.jpg" alt="" class="cover4"/>
+		<p class="text-center">
+			<img src="images/cs.jpg" class="portrait2" alt="常勝肖像照"/>
 		</p>
 		<section>
 			<h2>Introduzione dell’autore</h2>
@@ -47,8 +52,21 @@
 			<h3>YAN TIEHUA</h3>
 
 			<p class="text-center">
-				<img src="images/s1b1.jpg" alt="Cover of the comic Yan" class="cover3"/>
+				<a href="images/s1b1.jpg" data-lightbox="yan"><img src="images/s1b1.jpg" alt="Cover of the comic Yan" class="cover3"/></a>
+				<a href="images/s1b3.jpg" data-lightbox="yan">
 				<img src="images/s1b3.jpg" alt="Cover of the comic Yan" class="cover3"/>
+				</a>
+			</p>
+			<p class="text-center">
+				<a href="images/s1b4.jpg" data-lightbox="yan">
+					<img src="images/s1b4.jpg" alt="" class="cover4"/>
+				</a>
+				<a href="images/s1b5.jpg" data-lightbox="yan">
+					<img src="images/s1b5.jpg" alt="" class="cover4"/>
+				</a>
+				<a href="images/s1b6.jpg" data-lightbox="yan">
+					<img src="images/s1b6.jpg" alt="" class="cover4"/>
+				</a>
 			</p>
 			<p>Un programma trasmette in diretta un omicidio: un membro dell'Opera di Pechino che ricopre un ruolo femminile è ripreso dalla telecamera mentre canticchia un’aria di La leggenda del serpente bianco, “Lasciare Emei per Jiangnan …” si volta e spara al figlio di un membro del Congresso legato ad una sedia, “Ragazzina... Yan Tiehua…”</p>
 				
@@ -65,6 +83,7 @@
 		<footer>
 			<p><b>Ente responsabile</b>｜<small>Divisione Culturale dell'Ufficio di Rappresentanza di Taipei in Italia</small></p>
 			<p><b>Ente commissionante</b>｜<small>Dala Publishing Company</small></p>
+			<p><b>Sponsor</b> | <img src="images/moc.png" alt="文化部" class="moc"/></p>
 		</footer>
 	</body>
 </html>

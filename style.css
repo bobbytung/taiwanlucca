@@ -4,6 +4,12 @@
 	--sub-pink: #e62e8b;
 }
 
+
+@font-face {
+  font-family: 'Color';
+  src: url("font.otf") format('opentype');
+}
+
 body {
 	background-image: url(images/back.png);
 	background-repeat: repeat;
@@ -13,13 +19,11 @@ body {
 
 }
 
-@font-face {
-  font-family: "Color";
-  src: url(font.otf);
-}
+
+
 
 h1 {
-	font-family: "Color", sans-serif;
+	font-family: 'Color', sans-serif;
 	text-align: center;
 	font-size: 2em;
 	color: var(--sub-pink);
@@ -71,6 +75,7 @@ h2 {
 	text-align: center;
 	font-size: 1.4em;
 	border-bottom: 2px dotted var(--sub-pink);
+	padding-bottom:  0.25em;
 }
 
 h3 {
@@ -204,10 +209,6 @@ section {
 
 
 
-footer {
-	border-top: 3px var(--sub-pink) solid;)
-
-}
 
 footer p {
 	font-family: "Color", sans-serif;
@@ -318,4 +319,22 @@ a {
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
 
+}
+
+.food {
+	width: 200px;
+}
+
+.food2 {
+	width: 120px;
+}
+
+.end {
+	width: 90%;
+	max-width: 640px;
+}
+
+.icon {
+	height: 40px;
+	vertical-align: middle;
 }
